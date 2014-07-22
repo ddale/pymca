@@ -7,13 +7,13 @@
 *.bat eol=crlf
 
 # consider as binary files
-*.html -text
-*.DAT -text
-*.mat -text
-*.dict -text
-*.lib -text
-*.1 -text
-EGRID.TXT -text
+*.html binary
+*.DAT binary
+*.mat binary
+*.dict binary
+*.lib binary
+*.1 binary
+EGRID.TXT binary
 
 # sets how git diffs will be displayed
 *.py diff=python
